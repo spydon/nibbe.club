@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="{{ with .Site.LanguageCode }}{{ . }}{{ else }}en-US{{ end }}">
+    <head>
+        {{ partial "head.html" . }}
+    </head>
+    <body id="page-top" class="index">
+
+        {{ $.Scratch.Add "story" (index $.Site.Data.projects (string (add (mod (div now.Unix 86400) (len $.Site.Data.projects)) 1))) }}
+
+        {{ partial "nav.html" . }}
+
+        {{ partial "header.html" . }}
+        {{ partial "portfolio-grid.html" . }}
+        {{ partial "about.html" . }}
+
+        {{ partial "footer.html" . }}
+        {{ partial "modals.html" . }}
+        {{ partial "js.html" . }}
+
+    </body>
+</html>
