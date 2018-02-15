@@ -7,11 +7,11 @@
                 <hr class="star-light">
             </div>
         </div>
-    <div class="row">
-        <div class="col-lg-4 col-lg-offset-2">
-            <p>{{ with .Site.Params.about.left }}{{ . | markdownify }}{{ end }}</p>
-        </div>
-            <div class="col-lg-4">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 text-center">
+                <p>{{ with .Site.Params.about.left }}{{ . | markdownify }}{{ end }}</p>
+            </div>
+            <div class="col-lg-8 col-lg-offset-2 text-center">
                 <p>{{ with .Site.Params.about.right }}{{ . | markdownify }}{{ end }}</p>
             </div>
             <div class="col-lg-8 col-lg-offset-2 text-center">

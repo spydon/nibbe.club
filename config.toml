@@ -1,4 +1,4 @@
-baseURL = "https://nibbe.club/"
+baseURL = "http://nibbe.club/"
 languageCode = "en-us"
 title = "Nibbe Club"
 theme = "hugo-freelancer-theme"
@@ -54,35 +54,11 @@ theme = "hugo-freelancer-theme"
     [params.about]
         title = "About"
         # The about text is splitted into a left and right column
-        left = "Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional LESS stylesheets for easy customization."
-        right = "Whether you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your projects, this template is the perfect starting point!"
+        left = "This project was made to celebrate our awesome friend Nibbe's 10 000 day alive."
+        right = "Made with love by Lukas, PLACEHOLDER FOR CONTRIBUTORS"
 
         [params.about.button]
-            text = "Download theme"
-            link = "//github.com/digitalcraftsman/hugo-freelancer-theme/archive/master.zip"
+            text = "Download site"
+            link = "https://github.com/spydon/nibbe.club"
             icon = "download"
-
-
-    [params.contact]
-        title = "Contact"
-
-        # 'error' defines error messages for invalid inputs
-        [params.contact.form.name]
-            text = "Name"
-            error = "Please enter your name."
-
-        [params.contact.form.email]
-            text = "Email Address"
-            error = "Please enter your email address."
-
-        [params.contact.form.phone]
-            text = "Phone Number"
-            error = "Please enter your phone number."
-
-        [params.contact.form.message]
-            text = "Message"
-            error = "Please enter a message."
-
-        [params.contact.form.button]
-            text = "Send"
 
