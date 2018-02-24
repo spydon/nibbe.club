@@ -17,6 +17,11 @@
                     </div>
                     <img src="img/portfolio/{{ ($.Scratch.Get "story").img }}" class="img-responsive">
                 </a>
+                <div class="row">
+                  <div class="col-lg-12 text-center">
+                    <h4>{{ with .Site.Params.portfolio.subtitle }}{{.}}{{end}}</h4>
+                </div>
+              </div>
             </div>
         </div>
     </div>

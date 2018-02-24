@@ -46,6 +46,7 @@ theme = "hugo-freelancer-theme"
         # at the root of this Hugo site.
         # For more informtion take a look at the README.
         title = "Daily Shizzle"
+        subtitle = "Click image to open"
 
         [params.portfolio.modal]
             author = "Author"
@@ -58,7 +59,7 @@ theme = "hugo-freelancer-theme"
         right = "Made with love by Lukas, PLACEHOLDER FOR CONTRIBUTORS"
 
         [params.about.button]
-            text = "Download site"
+            text = "See source code"
             link = "https://github.com/spydon/nibbe.club"
             icon = "download"
 
