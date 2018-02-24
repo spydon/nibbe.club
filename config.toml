@@ -1,7 +1,7 @@
 baseURL = "http://nibbe.club/"
 languageCode = "en-us"
 title = "Nibbe Club"
-theme = "hugo-freelancer-theme"
+theme = "nibbe-theme"
 
 [params]
 
@@ -38,13 +38,9 @@ theme = "hugo-freelancer-theme"
         # Copy your own image into './static/img/'' if you wish
         image = "profile.png"
         name = "Nibbe Club"
-        subtitle = "For Nibbe, day 10 000"
+        subtitle = "Day "
 
     [params.portfolio]
-        # All projects defined in their own files. You can find example projects
-        # at 'exampleSite/data/projects'. Copy the 'projects' folder into the 'data' directory
-        # at the root of this Hugo site.
-        # For more informtion take a look at the README.
         title = "Daily Shizzle"
         subtitle = "Click image to open"
 
@@ -55,7 +51,7 @@ theme = "hugo-freelancer-theme"
     [params.about]
         title = "About"
         # The about text is splitted into a left and right column
-        left = "This project was made to celebrate our awesome friend Nibbe's 10 000 day alive."
+        left = "This project was made to celebrate our awesome friend Nibbe's 10 000th day alive."
         right = "Made with love by Lukas, PLACEHOLDER FOR CONTRIBUTORS"
 
         [params.about.button]
