@@ -5,7 +5,7 @@
     </head>
     <body id="page-top" class="index">
 
-        {{ $.Scratch.Add "story" (index $.Site.stories (string (add (mod (div now.Unix 86400) (len $.Site.stories)) 1))) }}
+        {{ $.Scratch.Add "story" (index $.Site.Data.stories (string (add (mod (div now.Unix 86400) (len $.Site.Data.stories)) 1))) }}
         {{ $.Scratch.Add "day" (div (sub now.Unix 655862400) 86400) }}
 
         {{ partial "nav.html" . }}

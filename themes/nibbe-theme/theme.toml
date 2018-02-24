@@ -1,17 +1,21 @@
-name = "Freelancer"
+name = "spydon"
 license = "Apache License 2.0"
 licenselink = "//github.com/digitalcraftsman/hugo-freelancer-theme/blob/master/LICENSE"
-description = "A one page HTML theme for freelancers."
-homepage = "//github.com/digitalcraftsman/hugo-freelancer-theme"
-tags = ["freenlancer", "portfolio"]
-features = ["responsive", "contact form", "portfolio", "substitutable strings"]
+description = "A one page HTML theme for day 10 000."
+homepage = "//github.com/spydon/nibbe-club"
+tags = ["birthday", "10000"]
+features = ["responsive", "substitutable strings"]
 min_version = 0.14
 
 [author]
+  name = "spydon"
+  homepage = "//github.com/spydon"
+
+# If porting an existing theme
+[[author]]
   name = "digitalcraftsman"
   homepage = "//github.com/digitalcraftsman"
 
-# If porting an existing theme
 [[original]]
   # Creator of the original Bootstrap theme
   name = "David Miller"
