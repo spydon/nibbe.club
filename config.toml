@@ -52,7 +52,7 @@ theme = "nibbe-theme"
         title = "About"
         # The about text is splitted into a left and right column
         left = "This project was made to celebrate our awesome friend Nibbe's 10 000th day alive."
-        right = "Made with love by Lukas, PLACEHOLDER FOR CONTRIBUTORS"
+        right = "Made with love by Lukas, Anna, Jossan, Malin and Krippe"
 
         [params.about.button]
             text = "See source code"
